@@ -9,6 +9,9 @@ The main goal of this repo is to help quickly make plugins for various purposes.
 You can either adapt an existing vanilla js library or make a vue components library/plugin for your projects.
 
 ## What are the perks ?
+### Code your library/plugin
+
+Code your library/plugin in `src/plugin`
 
 ### Build the library
 
