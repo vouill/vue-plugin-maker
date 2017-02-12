@@ -17,7 +17,8 @@ Code your library/plugin in `src/plugin`
 
 * npm run build:lib
 
-Creates a lib folder with the plugin/lib inside.
+Creates a `lib` folder with the plugin/lib inside.
+You can then name your project, upload it to npm and simply import your components from it.
 You can change and customize the library build in `build/webpack.lib.conf.js`
 
 ### Build the Github docs
