@@ -5,6 +5,11 @@
   "author": "Vouill <vouillon.thibaud@gmail.com>",
   "main": "/lib/plugin.js",
   "private": true,
+  "bugs": "https://github.com/vouill/vue-plugin-maker/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vouill/vue-plugin-maker"
+  },
   "scripts": {
     "dev": "node build/dev-server.js",
     "build:docs": "node build/build.js",
@@ -15,9 +20,9 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
-    "vue": "^2.1.10"
   },
   "devDependencies": {
+    "vue": "^2.1.10",
     "autoprefixer": "^6.7.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
