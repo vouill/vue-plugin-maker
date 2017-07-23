@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Template to quickly setup vue plugins",
   "author": "Vouill <vouillon.thibaud@gmail.com>",
-  "main": "/lib/plugin.js",
+  "main": "./lib/plugin.js",
   "private": true,
   "bugs": "https://github.com/vouill/vue-plugin-maker/issues",
   "repository": {
