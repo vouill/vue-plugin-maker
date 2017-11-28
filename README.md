@@ -8,7 +8,7 @@ The main goal of this repo is to help quickly make plugins for various purposes.
 
 You can either adapt an existing vanilla js library or make a vue components library/plugin for your projects.
 
-## What are the perks ?
+## Usage ?
 ### Code your library/plugin
 
 Code your library/plugin in `src/plugin`
@@ -29,7 +29,7 @@ Creates a docs folder with main.js entry project. It's basically a prod build fo
 
 [Link to Docs](https://vouill.github.io/vue-plugin-maker/)
 
-## Scripts
+## Commands
 
 ``` bash
 # install dependencies
@@ -44,17 +44,11 @@ npm run build:lib
 # build for github docs page
 npm run build:docs
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
 # run all tests
 npm test
+
+# run unit in watch mode
+npm run test-watch
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
