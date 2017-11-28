@@ -23,7 +23,8 @@ var config = merge(baseWebpackConfig,{
   plugins: [
     new webpack.optimize.UglifyJsPlugin({
       sourceMap: true
-    })]
+    })],
+  externals: {}
 });
 
 module.exports = config;
