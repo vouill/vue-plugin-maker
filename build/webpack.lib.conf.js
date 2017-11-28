@@ -15,7 +15,15 @@ var config = merge(baseWebpackConfig,{
     library: libraryName,
     libraryTarget: 'umd',
     umdNamedDefine: true
-  }
+  },
+  performance: {
+    hints: false
+  },
+  devtool: '#source-map',
+  plugins: [
+    new webpack.optimize.UglifyJsPlugin({
+      sourceMap: true
+    })]
 });
 
 module.exports = config;

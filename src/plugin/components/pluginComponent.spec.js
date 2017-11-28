@@ -1,12 +1,9 @@
-import Vue from 'vue'
+import { mount } from 'vue-test-utils'
 import pluginComponent from './pluginComponent.vue'
 
 describe('pluginComponent', () => {
-  it('should render slot content', () => {
-    const vm = new Vue({
-      el: document.createElement('div'),
-      render: (h) => h(pluginComponent,[h('p','test')])
-    })
-    expect(vm.$el.querySelector('p').textContent).to.equal('test')
+  it('should render component', () => {
+    const wrapper = mount(pluginComponent)
+    expect(wrapper).toMatchSnapshot()
   })
 })
